@@ -1,0 +1,132 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.9.0' compiled with GCC 5.4.0. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 18602053264443 ticks ( 18602.1 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/mi/isir/rtt_ros-2.9_ws/install/lib/orocos:/home/mi/isir/orocos-2.9_ws/install/lib/orocos:/home/mi/isir/lwr_ws/install/lib/orocos:/home/mi/orocos/devel/lib/orocos . Searching in: /home/mi/isir/rtt_ros-2.9_ws/install/lib/orocos:/home/mi/isir/orocos-2.9_ws/install/lib/orocos:/home/mi/isir/lwr_ws/install/lib/orocos:/home/mi/orocos/devel/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading plugin libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/./plugins ...
+0.001 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.001 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.001 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading typekit libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/./types ...
+0.004 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.004 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.026 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for llong
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for ullong
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.026 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.026 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/mi/isir/rtt_ros-2.9_ws/install/lib/orocos:/home/mi/isir/orocos-2.9_ws/install/lib/orocos:/home/mi/isir/lwr_ws/install/lib/orocos:/home/mi/orocos/devel/lib/orocos . Searching in: /home/mi/isir/rtt_ros-2.9_ws/install/lib/orocos:/home/mi/isir/orocos-2.9_ws/install/lib/orocos:/home/mi/isir/lwr_ws/install/lib/orocos:/home/mi/orocos/devel/lib/orocos
+0.026 [ Info   ][Logger] OCL factory set for real-time logging
+0.026 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.026 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5801 ).
+0.027 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.027 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl ...
+0.028 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.032 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::logging::Log4cxxAppender'
+0.034 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.035 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.037 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.050 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.050 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.051 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.051 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/types ...
+0.053 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.053 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.053 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/ocl/plugins ...
+0.053 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.056 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.056 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+0.056 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5802 ).
+0.056 [ Info   ][Logger] Entering Task Deployer
+9.877 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+9.877 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5804 ).
+9.879 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/mi/orocos/devel/lib/orocos/gnulinux/deployment_test ...
+9.884 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'PlantType'
+9.888 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ControllerType'
+11.476 [ Info   ][loadComponents] Loading 'example.cpf' in group 0.
+11.483 [ Info   ][loadComponents] Validating new configuration...
+11.483 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos ...
+11.483 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux ...
+11.483 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/types ...
+11.483 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/mi/isir/orocos-2.9_ws/install/lib/orocos/gnulinux/plugins ...
+11.483 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Reporter'
+11.483 [ Info   ][Reporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5805 ).
+11.484 [ Info   ][loadComponent] Adding Reporter as new peer:  OK.
+11.484 [ Info   ][loadComponents] Component Reporter added to group 0.
+11.484 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=0, CPU affinity=4294967295, with name='TimerThreadInstance'
+11.484 [ Info   ][TimerThreadInstance] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0.005 (PID= 5806 ).
+11.484 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Controller'
+11.484 [ Info   ][Controller] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5807 ).
+11.484 [ Info   ][loadComponent] Adding Controller as new peer:  OK.
+11.484 [ Info   ][loadComponents] Component Controller added to group 0.
+11.484 [ Warning][loadComponents] Lowering scheduler type to SCHED_OTHER for non-privileged users..
+11.484 [ Warning][loadComponents] Forcing priority (99) of thread with SCHED_OTHER policy to 0.
+11.484 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=0, CPU affinity=4294967295, with name='TimerThreadInstance'
+11.484 [ Info   ][TimerThreadInstance] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0.001 (PID= 5808 ).
+11.484 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Plant'
+11.485 [ Info   ][Plant] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5809 ).
+11.485 [ Info   ][loadComponent] Adding Plant as new peer:  OK.
+11.485 [ Info   ][loadComponents] Component Plant added to group 0.
+11.485 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=0, CPU affinity=4294967295, with name='Plant'
+11.485 [ Warning][Thread] Lowering scheduler type to SCHED_OTHER for non-privileged users..
+11.485 [ Debug  ][Plant] 
+11.485 [ Warning][Plant] Lowering scheduler type to SCHED_OTHER for non-privileged users..
+11.485 [ Info   ][Plant] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5810 ).
+13.199 [ Info   ][configureComponents] Configuring components in group 0
+13.199 [ Info   ][configureComponents] Deployer makes Plant a peer of Reporter
+13.199 [ Info   ][configureComponents] Deployer makes Plant a peer of Controller
+13.199 [ Info   ][configureComponents] Component Controller's OutputPort SteeringSignals will write topic DriveConnection
+13.200 [ Info   ][configureComponents] Subscribed InputPort Plant.Setpoints to topic SteeringSignals/DriveConnection
+13.200 [ Info   ][configureComponents] Component Plant's OutputPort Position will write topic SensorValuesConnection
+13.200 [ Info   ][configureComponents] Subscribed InputPort Controller.SensorValues to topic Position/SensorValuesConnection
+13.200 [ Info   ][PropertyLoader:load] Loading properties into Service 'Reporter' with 'reporting.cpf'.
+13.207 [ Info   ][configureComponents] Configured Properties of Reporter from reporting.cpf
+13.207 [ Info   ][configureComponents] Re-setting activity of Reporter
+13.207 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+13.207 [ Info   ][ReportingComponent] Monitoring OutputPort Position : ok.
+13.207 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+13.207 [ Info   ][ReportingComponent] Monitoring OutputPort Velocity : ok.
+13.207 [ ERROR  ][ReportingComponent] Can not report InputPort Setpoints of Component Plant
+13.207 [ Info   ][PropertyLoader:configure] Configuring Service 'Controller' with 'controller.cpf'.
+13.212 [ Info   ][configureComponents] Configured Properties of Controller from controller.cpf
+13.213 [ Info   ][configureComponents] Re-setting activity of Controller
+13.213 [ Info   ][configureComponents] Loading Service or Plugin scripting in TaskContext Controller
+13.214 [ Info   ][configureComponents] Found complete interface of requested service 'scripting'
+13.214 [ Info   ][ProgramLoader::loadProgram] Parsing file controller-program.ops
+13.218 [ Info   ][ProgramLoader::loadProgram] Loading Program 'ControllerAction'
+13.218 [ Info   ][configureComponents] Re-setting activity of Plant
+13.218 [ Info   ][configureComponents] Component Controller's OutputPort SteeringSignals will write topic DriveConnection
+13.218 [ Info   ][configureComponents] OutputPort SteeringSignals is already connected to Setpoints, ignoring new connection.
+13.218 [ Info   ][configureComponents] Subscribed InputPort Plant.Setpoints to topic SteeringSignals/DriveConnection
+13.218 [ Info   ][configureComponents] Component Plant's OutputPort Position will write topic SensorValuesConnection
+13.219 [ Info   ][configureComponents] OutputPort Position is already connected to SensorValues, ignoring new connection.
+13.219 [ Info   ][configureComponents] Subscribed InputPort Controller.SensorValues to topic Position/SensorValuesConnection
+13.219 [ Info   ][configureComponents] Configuration successful for group 0.
+13.219 [ Info   ][configureComponents] Configuring components in group 1
+13.219 [ Info   ][configureComponents] Component Controller's OutputPort SteeringSignals will write topic DriveConnection
+13.219 [ Info   ][configureComponents] OutputPort SteeringSignals is already connected to Setpoints, ignoring new connection.
+13.219 [ Info   ][configureComponents] Subscribed InputPort Plant.Setpoints to topic SteeringSignals/DriveConnection
+13.219 [ Info   ][configureComponents] Component Plant's OutputPort Position will write topic SensorValuesConnection
+13.219 [ Info   ][configureComponents] OutputPort Position is already connected to SensorValues, ignoring new connection.
+13.219 [ Info   ][configureComponents] Subscribed InputPort Controller.SensorValues to topic Position/SensorValuesConnection
+13.219 [ Info   ][configureComponents] Component Controller's OutputPort SteeringSignals will write topic DriveConnection
+13.219 [ Info   ][configureComponents] OutputPort SteeringSignals is already connected to Setpoints, ignoring new connection.
+13.219 [ Info   ][configureComponents] Subscribed InputPort Plant.Setpoints to topic SteeringSignals/DriveConnection
+13.219 [ Info   ][configureComponents] Component Plant's OutputPort Position will write topic SensorValuesConnection
+13.219 [ Info   ][configureComponents] OutputPort Position is already connected to SensorValues, ignoring new connection.
+13.219 [ Info   ][configureComponents] Subscribed InputPort Controller.SensorValues to topic Position/SensorValuesConnection
+13.219 [ Info   ][configureComponents] Configuration successful for group 1.
+14.781 [ Info   ][startComponentsGroup] Startup of 'AutoStart' components successful for group 0.
+14.781 [ Info   ][startComponentsGroup] Startup of 'AutoStart' components successful for group 1.
